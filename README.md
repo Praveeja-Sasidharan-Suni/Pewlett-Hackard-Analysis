@@ -12,7 +12,7 @@ close to requirement, HR would like to set up a mentorship program based on year
 3. ***Deliverable 3***: A written report on the employee database analysis 
 
 ## Software
-PostgreSQL pgAdmin
+PostgreSQL, pgAdmin
 
 ## Results: 
 #### Retiring by Title Table: 
