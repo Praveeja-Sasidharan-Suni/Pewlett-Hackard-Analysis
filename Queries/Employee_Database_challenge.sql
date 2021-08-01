@@ -51,7 +51,7 @@ FROM employees as e
 	LEFT JOIN dept_emp as d
 	ON (e.emp_no = d.emp_no) 
 	LEFT JOIN titles as t
-	ON (e.emp_no = d.emp_no)
+	ON (e.emp_no = t.emp_no)
 WHERE (birth_date BETWEEN '1965-01-01' AND '1965-12-31');
 
 select * from mentorship_eligibilty;
